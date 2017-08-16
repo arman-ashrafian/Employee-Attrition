@@ -105,12 +105,12 @@ def norm_overtime():
         elif cell.value == 'Yes':
             sheet[cell.coordinate].value = 1
 
-norm_gender()
-norm_job_role()
-norm_overtime()
+# norm_gender()
+# norm_job_role()
+# norm_overtime()
 norm_attrition()
-norm_department()
-norm_marital_status()
-norm_education_feild()
-norm_bussiness_travel()
+# norm_department()
+# norm_marital_status()
+# norm_education_feild()
+# norm_bussiness_travel()
 wb.save('Normalized.xlsx')
